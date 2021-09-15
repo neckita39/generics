@@ -1,6 +1,6 @@
 package ru.biblio;
 
-public class Book {
+public class Book extends Anything{
     private String name;
     public Book(String m_name){
         name=m_name;

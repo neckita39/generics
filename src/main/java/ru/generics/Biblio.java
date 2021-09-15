@@ -1,15 +1,11 @@
-package ru.biblio;
+package ru.generics;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Biblio<T> {
-    private List<T> els=new ArrayList<>();
-
-
-    public Biblio(){
-
-    }
+    public List<T> els=new ArrayList<>();
+    public Biblio(){}
     public void add(T obj){
         this.els.add(obj);
     }
